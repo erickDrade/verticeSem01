@@ -1,0 +1,74 @@
+/*Estilização do BODY do site*/
+body{
+    margin: 0;
+    border: 0;
+    font-family: 'Bookman Old Style';
+}
+.logo{
+width: 15%;
+margin: 20 0 0 50;
+}
+/*Estilização do header do site*/
+header{
+    background-color: #000000;
+}
+/*Estilização da DIV do header*/
+.divHeader{
+    position: relative;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+/*Estilizaçãa do MENU do site*/
+nav{
+    position: absolute;
+    top: 40px;
+    right: 100;
+}
+nav li{
+    display: inline;
+    color: white;
+    font-size: 30;
+    margin-right: 45;
+   
+}
+.banner{
+    width: 100%;
+    height: 30%;
+    object-fit: cover;
+}
+/**Estilização da sessão "SOBRE NÓS"*/
+.sobre_nos{
+    margin: 0;
+    background-color: #FFFFFE;
+    text-align: justify;
+    width: 60%;
+    margin-left: 20%;
+}
+/*Imagem do sobre nós*/
+.img_sobrenos {
+    width: 40%;
+    float: left;
+    margin: 0 20px 0 0;
+}
+.titulo_sobrenos{
+    clear: left;
+    text-align: center;
+}
+.texto_diferente{
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+/*Estilização da sessão NOSSO ESTABELECIMENTO*/
+.mapaGeral{
+    padding-left: 2.5%;
+    background: linear-gradient(white,gray,black);
+}
+.mapaGeral{
+    text-align: center;
+}
+.mapa{
+    margin: auto;
+ }
